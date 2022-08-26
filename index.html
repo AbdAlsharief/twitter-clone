@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="style/sheet.css">
+    
+
+
+   
+    <title>Twitter</title> 
+</head>
+<body>
+
+    <header>
+        <div class ="nav-links">
+            <a href=""><img src = "images/logo.png"></a>
+
+            <a href="">
+                <i class="material-icons-outlined">home</i>
+                <span>Home</span>
+            </a>
+
+            <a href="">
+                <i class="material-icons-outlined">tag</i>
+                <span>Explore</span>
+            </a>
+
+            <a href="">
+                <i class="material-icons-outlined">notifications</i>
+                <span>Notifications</span>
+            </a>
+
+            <a href="">
+                <i class="material-icons-outlined">email</i>
+                <span>Messages</span>
+            </a>
+
+            <a href="">
+                <i class="material-icons-outlined">bookmark_border</i>
+                <span>Bookmark</span>
+            </a>
+
+            <a href="">
+                <i class="material-icons-outlined">list_alt</i>
+                <span>Lists</span>
+            </a>
+
+            <a href="">
+                <i class="material-icons-outlined">person</i>
+                <span>Profile</span>
+            </a>
+
+            <a href="">
+                <i class="material-icons-outlined">more</i>
+                <span>More</span>
+            </a>    
+         
+        </div>
+
+        <div class ="main-account">
+            <a href="">
+                <img  class="tweet-img"src="images/A-img.PNG" alt="">
+                <div class="account-details">
+                    <span class="account-name">Aaya Sh</span>
+                    <span class="account-handle">@aaya_</span>
+                </div>
+                <i class="material-icons-outlined">more_horiz</i>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-flex">
+            <div class="main-feed" id="mainfeed">
+                <div class="home-bar">
+                    <span>Home</span>
+                    <i class="material-icons-outlined">auto_awesome</i>
+
+                </div>
+
+                <div class="new-tweet">
+                    <img  class="tweet-img"src="images/user.PNG" alt="">
+
+                    <div class="new-tweet-details">
+                        <form class="form" id="form">
+                            <div class="input-box">
+                                <input type="text" name="name" id="name" required placeholder="Your name.." value="">
+                            </div>
+
+                            <div class="input-box">
+                                <input type="text" name="tweet" id="tweet" required placeholder="What's in your mind?" value="">
+                            </div>
+                           
+                            <div class="new-tweet-actions">
+                                <ul>
+                                    <li><i class="material-icons-outlined">image</i></li>
+                                    <li><i class="material-icons-outlined">poll</i></li>
+                                    <li><i class="material-icons-outlined">sentiment_satisfied</i></li>
+                                    <li><i class="material-icons-outlined">event</i></li>
+                                </ul>
+                                
+                                <button  type="submit" id="submit" class="tweet-btn">Tweet</button>
+                            </div>
+                           
+                        </form>
+            
+            
+                    </div>
+
+                </div>
+
+                <div id="tweets-container">
+                  <!--
+                    <div class="feed-tweet">
+                        <img  class="tweet-img"src="images/A-img.PNG" alt="">
+                      
+                        <div class="feed-tweet-details">
+                            <div class="user-details">
+                                <a href="" class="user-name"> Aaya sh
+                                    <span class="account-handle"> @aaya_</span>
+                                </a>
+                                <i class="material-icons-outlined">more_horiz</i>
+                            </div>
+    
+                            <div class="tweet-text"> 
+                                <p class="user-tweet" >Hello New tweet! Hello New tweet!</p>
+                            </div>
+    
+                            <div class="tweet-icons">
+                                <i id="retweet" class="material-icons">restart_alt</i>
+                                <i class="material-icons-outlined">chat_bubble_outline</i>
+                                <i id="lgike"  class="like material-icons-outlined">favorite_border</i>
+                                <i class="material-icons-outlined">upload</i>
+
+                                
+    
+                            </div>
+    
+                        </div>
+                    </div> 
+                  --> 
+                   
+
+                </div>
+               
+                
+            </div>
+
+            <div class="side-feed">
+                <div class="search">
+                    
+                    <input type="text" name="" required="required" placeholder="Search here.." value="">
+
+                </div>
+
+                <div class="trending">
+                    <h1 class="h1-title"> What's Happening?</h1>
+                    <div class="trending-item">
+                        <div class="item-category">
+                            <span>Trending in World</span>
+                            <i class="material-icons-outlined"> more_horiz</i>
+                        </div>
+
+                        <p>Code with js</p>
+                        <span> 100k Tweet</span>
+
+                    </div>
+
+                    <div class="trending-item">
+                        <div class="item-category">
+                            <span>Trending in World</span>
+                            <i class="material-icons-outlined"> more_horiz</i>
+                        </div>
+
+                        <p>Code with js</p>
+                        <span> 100k Tweet</span>
+
+                    </div>
+                    <div class="trending-item">
+                        <div class="item-category">
+                            <span>Trending in World</span>
+                            <i class="material-icons-outlined"> more_horiz</i>
+                        </div>
+
+                        <p>Code with js</p>
+                        <span> 100k Tweet</span>
+
+                    </div>
+
+                    <div class="trending-item">
+                        <div class="item-category">
+                            <span>Trending in World</span>
+                            <i class="material-icons-outlined"> more_horiz</i>
+                        </div>
+
+                        <p>Code with js</p>
+                        <span> 100k Tweet</span>
+
+                    </div>
+
+                    <a href="" class="show-more">show more</a>
+                </div>
+                
+
+                <div class="follow">
+                    <h1 class="h1-title">Who to follow</h1>
+                    <div class="follow-profile">
+                        <div class="profile-cont">
+                            <img  class="tweet-img"src="images/J.PNG" alt="">
+                            <div class="account-details follow-details">
+                                <span class="account-name">Johan Smith</span>
+                                <span class="account-handle">@jsmith_</span>
+                            </div>
+                        </div>
+                            
+                            <button class="follow-btn">follow</button>               
+                        
+                        </div>
+
+
+                        <div class="follow-profile">
+                            <div class="profile-cont">
+                                <img  class="tweet-img"src="images/J.PNG" alt="">
+                                <div class="account-details follow-details">
+                                    <span class="account-name">Johan Smith</span>
+                                    <span class="account-handle">@jsmith_</span>
+                                </div>
+                            </div>
+                            <button class="follow-btn">follow</button>               
+                        
+                        </div>
+
+                        <a href="" class="show-more">show more</a>
+
+                
+                </div>
+
+            </div>
+        </div>
+    </main>
+ 
+</body>
+
+
+<script type="text/javascript" src="scripts/script.js"></script>
+
+
+</html>
